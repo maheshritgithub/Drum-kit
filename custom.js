@@ -22,7 +22,7 @@ function makeSound(val){
 
     switch (val) {
         case "w": {
-            let audio1 = new Audio("../sounds/tom-1.mp3");
+            let audio1 = new Audio("sounds/tom-1.mp3");
             audio1.play();
             break;
            
